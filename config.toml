@@ -9,20 +9,20 @@ enableRobotsTXT = true
 title = "Viktor Thörnroos"
 
 [menu]
+
+[[menu.main]]
+name = "Resume (SWE)"
+url = "/documents/resume.pdf"
+weight = 1
+pre = "<span data-feather='file-text'></span>"
+
 [[menu.main]]
 identifier = "posts"
 url = "/posts/"
 pre = "<span data-feather='book'></span>"
 post = ""
 name = "Posts"
-weight = 1
-
-[[menu.main]]
-identifier = "tags"
-pre = "<span data-feather='tag'></span>"
-name = "Tags"
-url = "/tags/"
-weight = 2
+weight = 3
 
 [[menu.main]]
 identifier = "projects"
@@ -30,16 +30,23 @@ name = "Projects"
 pre = "<span data-feather='code'></span>"
 post = ""
 url = "/projects/"
-weight = 3
+weight = 4
+
+[[menu.main]]
+identifier = "tags"
+pre = "<span data-feather='tag'></span>"
+name = "Tags"
+url = "/tags/"
+weight = 5
 
 [[menu.main]]
 identifier = "github"
 url = "https://github.com/october45"
-weight = 4
+weight = 6
 pre = "<span data-feather='github'></span>"
 
 [params]
-avatarURL = "/images/profile.jpeg"
+avatarURL = "/images/profile_1.jpeg"
 AvatarAltText = "Viktor Thörnroos"
 # size-xs, size-s, size-m, size-l & size-xl
 avatarSize = "size-xl"
@@ -74,3 +81,5 @@ footer = "Viktor Thörnroos"
 startLevel = 1
 endLevel = 3
 ordered = false
+[markup.goldmark.renderer]
+unsafe = true

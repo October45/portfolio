@@ -76,3 +76,5 @@ Creating a website with Hugo and a theme was so easy that I might even use it in
 5. Follow theme instructions for configuration
 6. Add content with `hugo new <content-type>/<content-name>.md`
 7. Build the site with `hugo`
+
+Source code for this site is available on [GitHub](https://www.github.com/october45/portfolio)
