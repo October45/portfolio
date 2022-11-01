@@ -1,0 +1,76 @@
+baseURL = "http://localhost:1313/"
+defaultContentLanguage = "en"
+languageCode = "en"
+enableEmoji = true
+theme = "gokarna-october"
+pygmentsStyle = "monokai"
+enableRobotsTXT = true
+
+title = "Viktor Thörnroos"
+
+[menu]
+[[menu.main]]
+identifier = "posts"
+url = "/posts/"
+pre = "<span data-feather='book'></span>"
+post = ""
+name = "Posts"
+weight = 1
+
+[[menu.main]]
+identifier = "tags"
+pre = "<span data-feather='tag'></span>"
+name = "Tags"
+url = "/tags/"
+weight = 2
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+pre = "<span data-feather='code'></span>"
+post = ""
+url = "/projects/"
+weight = 3
+
+[[menu.main]]
+identifier = "github"
+url = "https://github.com/october45"
+weight = 4
+pre = "<span data-feather='github'></span>"
+
+[params]
+avatarURL = "/images/profile.jpeg"
+AvatarAltText = "Viktor Thörnroos"
+# size-xs, size-s, size-m, size-l & size-xl
+avatarSize = "size-xl"
+description = "Student attending grit:lab Åland and an aspiring developer"
+# Accent color is displayed when you hover over <a> tags
+accentColor = "#FF4D4D"
+customHeadHTML = ""
+metaKeywords = [
+    "Viktor Thörnroos",
+    "portfolio",
+    "hugo",
+    "developer",
+    "programmer",
+    "student",
+    "blog",
+]
+
+# "", "recent", "popular"
+# showPostsOnHomePage = ""
+
+socialIcons = [
+    { name = "github", url = "https://www.github.com/october45" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/thornroosv300172/" },
+    { name = "email", url = "mailto:thornroosv@gmail.com" },
+    { name = "instagram", url = "https://www.instagram.com/thornroosviktor/" },
+    { name = "facebook", url = "https://www.facebook.com/thornroosv" },
+]
+footer = "Viktor Thörnroos"
+
+[markup]
+[markup.tableOfContents]
+startLevel = 1
+endLevel = 3
+ordered = false
