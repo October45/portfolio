@@ -3,7 +3,7 @@ defaultContentLanguage = "en"
 languageCode = "en"
 enableEmoji = true
 theme = "gokarna-october"
-pygmentsStyle = "monokai"
+pygmentsStyle = "dracula"
 enableRobotsTXT = true
 
 title = "Viktor Thörnroos"
@@ -79,5 +79,5 @@ footer = "Viktor Thörnroos"
 startLevel = 1
 endLevel = 3
 ordered = false
-# [markup.goldmark.renderer]
-# unsafe = true
+[markup.goldmark.renderer]
+unsafe = true
