@@ -51,8 +51,6 @@ AvatarAltText = "Viktor Thörnroos"
 # size-xs, size-s, size-m, size-l & size-xl
 avatarSize = "size-xl"
 description = "Student attending grit:lab Åland and an aspiring developer"
-# Accent color is displayed when you hover over <a> tags
-accentColor = "#FF4D4D"
 customHeadHTML = ""
 metaKeywords = [
     "Viktor Thörnroos",
